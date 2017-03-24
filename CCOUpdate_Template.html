@@ -123,12 +123,6 @@
     text-decoration: underline;
   }
 
-  th {
-    background-color: #ff5000;
-    color: #ffffff;
-    font-weight: bold;
-  }
-
   ol, ul {
     font-family: arial, sans-serif;
     font-size: 1em;
@@ -147,7 +141,7 @@
     mso-line-height-rule: exactly;
   }
 
-  #emailContainer td {
+  #emailContainer th, td {
     font-family: arial, helvetica, sans-serif;
   }
 
@@ -254,6 +248,26 @@
     border-bottom-color: #d2d4d7;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+  }
+
+  .table {
+    width: 100%;
+  }
+
+  .table th,
+  .table td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #333d47;
+    line-height: 25px;
+    mso-line-height-rule: exactly;
+    -webkit-text-size-adjust: none;
+  }
+
+  .table th {
+    background-color: #ff5000;
+    color: #ffffff;
+    font-weight: bold;
   }
   </style>
 </head>
